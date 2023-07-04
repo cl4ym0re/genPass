@@ -49,7 +49,7 @@ with open("top100.txt") as f:
 
 all_passwords = set(passwords + top_100)
 
-with open("pass.txt", "w") as f:
+with open("pass_"+name+".txt", "w") as f:
     for password in all_passwords:
         f.write(password + "\n")
-print("[+]saved as pass.txt.")
+print("[+]saved as pass_"+name+".txt.")
