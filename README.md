@@ -3,6 +3,8 @@ A python3 script that can generate passwords based on the keywords provided.
 
 Usage: python3 genPass.py -n icbc  
 
+生成的密码字典会包含本地的top100.txt中的密码和目标名称（首字母大小写）+特殊字符(!@#)+年份  
 
-    
-![image](https://github.com/cl4ym0re/genPass/assets/70927349/324dde85-7242-4f53-8f2f-938de9da13f8)
+
+
+      
